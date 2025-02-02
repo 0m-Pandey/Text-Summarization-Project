@@ -1,1 +1,3 @@
 # Text-Summarization-Project
+
+It is an end-to-end NLP project based on transformers using the Hugging Face API, where I finetuned the "google pegasus_multi_news" model on the Web Scraped dataset to generate concise summaries of dialogues. The project included creating a comprehensive training and prediction pipeline encompassing data ingestion, validation, transformation, and model training, all integrated into a seamless workflow for text summarization. Summarizing Text by selecting the most relevant sentences and words directly from the original text to create the summary or shorter text without removing the semantic structure of text.
