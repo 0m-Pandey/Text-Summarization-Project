@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Load the saved model and tokenizer
  # Path to your saved model directory
-model_path = "GUI\Finetuned-model"
-tokenizer_path ="GUI\Finetuned-model-tokenizer"
+model_path = "Finetuned-model"
+tokenizer_path ="Finetuned-model-tokenizer"
 
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
